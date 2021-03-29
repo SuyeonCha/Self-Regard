@@ -1,0 +1,169 @@
+	body{
+		background-color: #000000;
+	}
+/*占쏙옙占쏙옙 占쌨댐옙占쏙옙*/
+	.sidebar {
+		background: black;
+		cursor: default;
+		height: 150px;
+		left: 0;
+		overflow-x: hidden;
+		overflow-y: auto;
+		position: fixed;
+		text-align: right;
+		top: 0;
+		width: 100%;
+		z-index: 10000;
+	}
+	.logo_img{
+		float:center;
+		margin-left:15px;
+		height: 80px;
+		margin-top:2px;
+	}
+	nav{
+		margin-right:50px;
+	}
+	.menu:hover{
+		font-size:35pt;
+		color:white;
+		display: block;
+		font-weight: bold;
+		letter-spacing: 1.5px;
+		position: relative;
+		text-decoration: none;
+		text-transform: uppercase;
+		padding:120px 80px auto;
+	}
+	.menu{
+		font-size:0pt;
+		color:white;
+		display: block;
+		font-weight: bold;
+		letter-spacing: 1.5px;
+		position: relative;
+		text-decoration: none;
+		text-transform: uppercase;
+		padding:120px 80px 180px;
+	}
+	
+	header a{
+	font-size:13px;
+	text-decoration:none; 
+	color:#ffffff;
+	}
+	
+    a:hover{color:#747474;}                       
+                      
+	nav ul li {
+         display:inline;                         
+         border-left:1px solid #cc3399;            
+         font:bold 12px Dotum;                     
+         padding:0 10px;
+    }
+	nav ul li:first-child{border-left:none;} 
+/*占싣뤄옙占쏙옙占쏙옙瀕占쏙옙*/
+	.content{
+		width:100%;
+		margin-top:120px;
+		padding:130px auto;
+		cursor: default;
+	}
+	.love{
+		width:300px;
+		height:300px;
+		margin:30px;
+		margin-left:12%; /*17%占쏙옙占쏙옙*/
+		background-image:url("../images/LOVE.jpg");
+		transitionall ease ls;
+		border-radius:3%;
+		float:left;	
+	}
+	.friendship{
+		width:300px;
+		height:300px;
+		margin:30px;
+		margin-left:12%;
+		background-image:url("../images/friend.jpg");
+		transitionall ease ls;
+		border-radius:3%;
+		float:left;
+	}
+	.trip{
+		width:300px;
+		height:300px;
+		margin:30px;
+		margin-left:12%;
+		background-image:url("../images/trip2.jpg");
+		transitionall ease ls;
+		border-radius:3%;
+		float:left;
+	}
+	.family{
+		width:300px;
+		height:300px;
+		margin:30px;
+		margin-left:12%;
+		background-image:url("../images/family2.jpg");
+		transitionall ease ls;
+		border-radius:3%;
+		float:left;
+	}
+	.life{
+		width:300px;
+		height:300px;
+		margin:30px;
+		margin-left:12%;
+		background-image:url("../images/life2.jpg");
+		transitionall ease ls;
+		border-radius:3%;
+		float:left;
+	}
+	.beauty{
+		width:300px;
+		height:300px;
+		margin:30px;
+		margin-left:12%;
+		background-image:url("../images/beauty2.jpg");
+		transitionall ease ls;
+		border-radius:3%;
+		float:left;
+	}
+	.family:hover, .life:hover, .beauty:hover, .trip:hover, .friendship:hover, .love:hover{
+		background-image:none;
+		background-color:black;
+		color:white;
+	}
+/*占싣뤄옙 占쌨댐옙占쏙옙 占쌜억옙 css*/
+	.menu:hover{
+		font-size:35pt;
+		color:white;
+		display: block;
+		font-weight: bold;
+		letter-spacing: 1.5px;
+		position: relative;
+		text-decoration: none;
+		text-transform: uppercase;
+		padding:120px 80px auto;
+	}
+	.menu{
+		font-size:0pt;
+		color:white;
+		display: block;
+		font-weight: bold;
+		letter-spacing: 1.5px;
+		position: relative;
+		text-decoration: none;
+		text-transform: uppercase;
+		padding:120px 80px 180px;
+
+	}
+	
+	
+	/* 源��삙吏꾩씠 �엫�떆濡� �깮�꽦 */
+	.joinForm_div {
+		width: 800px;
+		margin: auto;
+		background-color: white;
+		padding: 27px 15px 5px 15px;
+	}

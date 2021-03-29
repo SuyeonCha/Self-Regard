@@ -1,0 +1,51 @@
+#table_content{
+	width:100%;
+	margin-top:20px;
+	text-align: center;
+	border: 1px solid black;
+}
+.view_name{
+	background-color:black;
+	color:white;
+	width:100%;
+	padding:10px 0px;
+}
+textarea{
+	width:100%;
+	height:70px;
+	resize:none;
+}
+.btn{
+	float:right;
+	background-color: black;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 9pt;
+  outline: none;
+  padding: 8px 13px;
+  position: relative;
+  font-weight: 500;
+  height:40px;
+  width:100px;
+}
+.btn:hover{
+  cursor: pointer;
+  display: inline-block;
+	font-size: 9pt;
+	background-color:white;
+	border : 2px solid black;
+	color:black;
+	position: relative;
+	 font-weight: 500;
+}
+.coment_t{
+	width:100%;
+	padding-left:5px;
+}
+.coment_tt2{
+	padding-left:5px;
+	font-size:10pt;
+	width:70%;
+}
